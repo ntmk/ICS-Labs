@@ -1,0 +1,17 @@
+.header { font-family: Consolas, monospace;
+          max-width: 500px;
+          padding:2px;
+}
+
+.hot {  background-color: orange;
+        color: white;
+}
+.cool { background-color: green;
+        color:white;
+}
+
+li  {  max-width: 100px;
+       font-family: Consolas, monospace;
+       font-weight: bold;
+       padding-left:5px;
+}

@@ -1,0 +1,11 @@
+var myVar1 = 1;
+var myVar2 = "1";
+console.log("Comparing " + myVar1 + " and \"" + myVar2 + "\" using == is " + (myVar1 == myVar2));
+console.log("Comparing " + myVar1 + " and \"" + myVar2 + "\" using === is " + (myVar1 === myVar2));
+var myVar1 = "";
+var myVar2 = null;
+console.log("Comparing \"" + myVar1 + "\" and " + myVar2 + " using == is " + (myVar1 == myVar2));
+console.log("Comparing \"" + myVar1 + "\" and " + myVar2 + " using != is " + (myVar1 != myVar2));
+myVar1 = undefined;
+console.log("Comparing " + myVar1 + " and " + myVar2 + " using == is " + (myVar1 == myVar2));
+console.log("Comparing " + myVar1 + " and " + myVar2 + " using === is " + (myVar1 === myVar2));

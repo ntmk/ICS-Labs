@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76FB5A20-B5BB-AFDB-80BA-10A599B3DFF8" name="CUSTOMER">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:28:31 UTC</createdTime>
+<comment>Table that holds critical customer information&lt;br/&gt;</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CUSTOMER ID" id="FCD79D98-B5B0-EE34-1C56-98EBF2DBD029">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:29:23 UTC</createdTime>
+<comment>unique customer identifier</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUSTOMER FIRST NM" id="20EADCBD-E4A8-855E-AA38-B6259F4DE9D2">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:31:21 UTC</createdTime>
+<comment>customer first name</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUSTOMER MIDDLE NM" id="791E9648-2926-B07D-EAEC-A69947F1A52A">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:40:28 UTC</createdTime>
+<comment>customer middle name</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUSTOMER LAST NM" id="A0DEC22B-E8A7-3FCB-EAD6-DE5336766726">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:33:06 UTC</createdTime>
+<comment>customer last name</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INCOME" id="A4E19C39-D9C3-D577-D7B0-50F55D977966">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:33:23 UTC</createdTime>
+<comment>customer income</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SOCIAL INSURANCE NUMBER" id="339CF4E4-9195-8902-DC22-8CD3E5D2C2F7">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:39:10 UTC</createdTime>
+<comment>customer social insurance number</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30012F8B-FF94-2344-F5B7-4E3136D0FCDD" name="Customers PK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:29:59 UTC</createdTime>
+<ownerDesignName>LAB9</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCD79D98-B5B0-EE34-1C56-98EBF2DBD029</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

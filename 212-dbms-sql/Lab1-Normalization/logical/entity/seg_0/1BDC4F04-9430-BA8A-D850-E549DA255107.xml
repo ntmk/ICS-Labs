@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BDC4F04-9430-BA8A-D850-E549DA255107" name="ICS">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>D1C90E2F-40AE-9048-54F0-E73F69B9CB94</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COURSE NUM" id="C939FC77-CBE1-00D3-E0C8-5C7FAD0AE7BB">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>8DF66060-3652-080F-FDDB-031A1D7D1C0D</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COURSE NAME" id="02866E51-90A3-C901-7247-8C2F9A044695">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>F57DD548-1B6F-C759-07F3-35A78535B216</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E62071DA-5335-40AD-69D0-D3F1B4A0B5F9" name="ICS PK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>EE0B42BA-DEBE-08DC-11B9-41555FC603F4</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C939FC77-CBE1-00D3-E0C8-5C7FAD0AE7BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

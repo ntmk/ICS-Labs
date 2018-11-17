@@ -1,0 +1,32 @@
+extends layout
+block content
+  .container-fluid
+    h1= title
+    body
+      //- container that spans the entire viewport
+      .container-fluid
+        //- creates a row and centers content
+        .row.justify-content-sm-center
+          //- links are displayed as whole clickable pictures
+          each category in categories
+            a.img-link(href='/gallery/' + category.floral)
+              h4= category.floral
+              img(src='/images/floral.jpg' width='300' height='300')
+
+            a.img-link(href='/gallery/' + category.abstract)
+              h4= category.abstract
+              img(src='/images/Abstract.jpg' width='300' height='300')
+
+            a.img-link(href='/gallery/' + category.animals)
+              h4= category.animals
+              img(src='/images/animals.jpg' width='300' height='300')
+
+            a.img-link(href='/gallery/' + category.quotes)
+              h4= category.quotes
+              img(src='/images/quotes.jpg' width='300' height='300')
+        each category in categories
+          .row.justify-content-sm-center      
+            //- all listings here TODO: add carosel of a few images
+            a.img-link(href='/gallery')
+              h4= category.all
+              img(src='/images/quotes.jpg' width='300' height='300')

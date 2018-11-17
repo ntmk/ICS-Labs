@@ -1,0 +1,1 @@
+1 Values, Mean = 6.000000, Sample Standard Deviation = -nan

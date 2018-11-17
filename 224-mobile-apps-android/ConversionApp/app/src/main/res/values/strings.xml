@@ -1,0 +1,9 @@
+<resources>
+<string name="app_name">ConversionApp</string>
+<string-array name="choices">
+    <item>Area</item>
+    <item>Length</item>
+    <item>Temperature</item>
+    <item>Weight</item>
+</string-array>
+</resources>

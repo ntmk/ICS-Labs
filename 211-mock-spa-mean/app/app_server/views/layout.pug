@@ -1,0 +1,44 @@
+doctype html
+html
+  //- shrink-to-fot=no is needed for the safari browser
+  meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  head
+    title  Expressions of our Minds
+    link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
+    link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css' integrity='sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M' crossorigin='anonymous')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    
+  nav.navbar-fixed.navbar-expand-lg.navbar-light.bg-light
+    .container  
+      a.navbar-brand(href='/')
+        .brand-text.float-left Expressions of our Minds
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#mainNavBar')
+      span.navbar-toggler-icon
+    .collapse.navbar-collapse#mainNavBar
+      ul.navbar-nav.ml-auto
+        li.nav-item
+          a.nav-link(href='/') Home
+        li.nav-item
+          a.nav-link(href='/gallery') Current listings
+        //- li.nav-item
+        //-   a.nav-link(href='/gallery/description/purchase') Proceed to purchase
+        li.nav-item
+          a.nav-link(href='/about') Get to know Expressions of our Minds
+        li.nav-item
+          a.nav-link(href='/about/commission') Request commission
+        li.nav-item
+          a.nav-link(href='/about/contact') Contact Expressions of our Minds
+        //- li.nav-item
+        //-   a.nav-link(href='/login') Sign in / Register
+        //- form(class="form-inline my-2 my-lg-0")
+        //-   input(class="form-control mr-sm-2", type="text", placeholder="Search", aria-label="Search")
+        //-   button(class="btn btn-outline-success my-2 my-sm-0", type="submit") Search
+          
+  body
+    block content
+    script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous")
+  footer.bg-light
+    .container
+      .ca-footer-text &copy;2017 Expressions of our Minds

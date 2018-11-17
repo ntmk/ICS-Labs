@@ -1,0 +1,17 @@
+var m1 = 100;
+var m2 = "99";
+var result = m1 > m2;
+console.log(result);
+var result = m1 != m2;
+console.log(result);
+var m1 = 99;
+var result = m1 === m2;
+console.log(result);
+var result = m1 < 100 && m2 > 90;
+console.log(result);
+var result = ((m1 >= m2) || !(m1 = 100));
+console.log(result);
+console.log("result = ( m1 >= m2 ) || ( m1 != 100 );");
+var result = (m1 > m2) ? "y":"n";
+console.log(result);
+console.log('result = ( m1 > m2 ) ? \"y\" : \"n\" ;');

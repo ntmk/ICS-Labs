@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51EED907-0C59-3693-BF8D-C53E93C2AEE5" name="MATH">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>DCD2E053-CA71-C1C5-8698-B6F47013C85C</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COURSE NUM" id="E918F9F8-3ADE-1005-CB75-A3E1C070E787">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>F9EFB05A-B24C-E5D6-7A96-3991F1479311</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COURSE NAME" id="6509DE4B-D0FF-9B47-D503-9EF1D1D1A53C">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>4BCCDB78-9818-53DA-9234-05F05F5273BD</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA9DB1FD-D8A2-F65C-A0A8-D23148305F43" name="MATH PK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>132D39DD-781B-6FD0-4A4F-56FE8660C498</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E918F9F8-3ADE-1005-CB75-A3E1C070E787</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

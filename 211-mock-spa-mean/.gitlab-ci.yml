@@ -1,0 +1,34 @@
+image: node:6
+variables:
+  # hostname of the DOKKU deployment server
+  DEPLOY_SRV: deploy.cs.camosun.bc.ca
+before_script:
+  - "which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )"
+  - "eval $(ssh-agent -s)"
+  - "ssh-add <(echo \"$SSH_PRIVATE_KEY\")"
+  - "mkdir -p ~/.ssh"
+  - "[[ -f /.dockerenv ]] && echo -e \"Host *\\n\\tStrictHostKeyChecking no\\n\\n\" > ~/.ssh/config"
+stages:
+  - deploy-app
+  - deploy-db
+deploy_app_to_dokku:
+  only:
+    - master
+  script:
+    - "git subtree push --prefix app dokku@${DEPLOY_SRV}:$CI_PROJECT_NAME master"
+  stage: deploy-app
+  tags:
+    - deploy
+
+deploy_db_to_dokku:
+  only:
+    - master
+  script:
+    - "ssh dokku@$DEPLOY_SRV mongo:unlink ${CI_PROJECT_NAME}-DB $CI_PROJECT_NAME || true"
+    - "ssh dokku@$DEPLOY_SRV -- --force mongo:destroy ${CI_PROJECT_NAME}-DB || true"
+    - "ssh dokku@$DEPLOY_SRV mongo:create ${CI_PROJECT_NAME}-DB"
+    - "ssh dokku@$DEPLOY_SRV mongo:import ${CI_PROJECT_NAME}-DB < ./mongo-seed/dump.gz"
+    - "ssh dokku@$DEPLOY_SRV mongo:link ${CI_PROJECT_NAME}-DB $CI_PROJECT_NAME"
+  stage: deploy-db
+  tags:
+    - deploy

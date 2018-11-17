@@ -1,0 +1,25 @@
+---
+services:
+  db:
+    container_name: mongo
+    environment:
+      - MONGO_INITDB_DATABASE=creative-caregiver
+    image: "mongo:3.4.10"
+    volumes:
+      - "./mongo-seed:/docker-entrypoint-initdb.d"
+  node:
+    build: ./node
+    command: "nodemon -L"
+    container_name: node
+    environment:
+      - NODE_ENV=development
+    image: lab5
+    links:
+      - db
+    ports:
+      - "3000:3000"
+    user: node
+    volumes:
+      - "./app:/home/node/app"
+    working_dir: /home/node/app
+version: "3"

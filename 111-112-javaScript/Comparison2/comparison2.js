@@ -1,0 +1,17 @@
+var gauge = 0b11100111;
+var mask = 0b11000001;
+var result = gauge & mask;
+console.log(result.toString(2));
+console.log(result.toString(16));
+var mask = 0b01010100;
+var result = gauge & mask;
+console.log(result.toString(8));
+var mask = 0b10011010;
+var result = gauge | mask;
+console.log(result.toString(2));
+var result = ~result;
+console.log(result.toString(2));
+var result = result << 2;
+console.log(result.toString(2));
+result = gauge ^ mask;
+console.log(result.toString(2));

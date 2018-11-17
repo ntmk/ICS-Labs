@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63D1A5EB-E526-1823-F135-57753536656C" name="GRADES">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>88CBCAE8-9529-BB04-4FCC-B4FC70061A58</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GRADE" id="92879401-30C9-716A-0781-E0C6DA82ED9B">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>897D9FA6-D2DD-93B8-8980-FB0215552EFE</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<constraintName>PROPER_GRADE</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="GRADE = ANY (&apos;A+&apos;, &apos;A&apos;, &apos;A-&apos;, &apos;B+&apos;, &apos;B&apos;, &apos;B+&apos;, &apos;C+&apos;, &apos;C&apos;, &apos;C-&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STUDENT ID" id="BF1FFA77-03F7-4C35-7174-069E24B94919">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>BE96EB95-9245-C35F-8F09-C2C63A8255FE</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<referedAttribute>B057E2C8-5C53-47B4-F947-0678F205C7E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COURSE ID" id="0A8624C8-B92E-20E6-991F-5D6DFDB702F6">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>B8A62D76-9E29-7BB2-47B1-7329AD5FA8AE</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<referedAttribute>AC52EBBE-5735-980E-7E37-869DF02B8F09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71B327F5-9A1A-1F45-4562-342002F8C822" name="GRADES PK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>3F9BFAA9-DA96-A38A-5FD9-C85315A58D9C</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF1FFA77-03F7-4C35-7174-069E24B94919</attributeRef>
+<attributeRef>0A8624C8-B92E-20E6-991F-5D6DFDB702F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EBBDFC6C-1046-043F-1519-1B80F115752E" name="WAREHOUSE">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:55:01 UTC</createdTime>
+<comment>warehouse locataion and details</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="WAREHOUSE ID" id="499E745D-341D-4463-BCE9-25BB6C6529C1">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:55:21 UTC</createdTime>
+<comment>Warehouse ID</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WAREHOUSE NM" id="C0A02638-407C-54CE-A4B3-61CAF534803F">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:56:39 UTC</createdTime>
+<comment>Warehouse name</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QTY ON HAND" id="7A8CDD79-C5C4-0703-F930-19A40214D43C">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:57:57 UTC</createdTime>
+<comment>quantity of units on hand</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F07EAA09-FB89-339E-883C-BC9DB09F8F27" name="WAREHOUSE PK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:55:36 UTC</createdTime>
+<ownerDesignName>LAB9</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>499E745D-341D-4463-BCE9-25BB6C6529C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

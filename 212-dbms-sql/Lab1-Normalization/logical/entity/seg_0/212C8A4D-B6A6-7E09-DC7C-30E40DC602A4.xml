@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="212C8A4D-B6A6-7E09-DC7C-30E40DC602A4" name="STUDENT">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>FD8A79AC-4CD8-35C5-A8C7-5F5D522AC066</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STUDENT ID" id="B057E2C8-5C53-47B4-F947-0678F205C7E6">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>B89E640B-54CB-61F5-2B68-EF19C7A1B1B0</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FIRST NAME" id="DD5CE70C-AEBB-72C3-065E-F7AD190FCE03">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>A77B8314-1A32-EDCF-FC5D-C32F4D45BF33</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LAST NAME" id="B9D5E731-15A2-C481-FE28-DDEDBFC00A76">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>FDC0C712-F65E-AF1E-ADCB-79CFBF7F4C55</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="79BE7A8B-0A2C-B6BD-EF39-645016B06E4D" name="STUDENT PK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:23:27 UTC</createdTime>
+<generatorID>DE8396DE-EB0F-8028-D1BC-5DCE661ED8F8</generatorID>
+<ownerDesignName>212Lab1</ownerDesignName>
+<engineerTo>
+<item key="FCE50CA1-3C78-7403-5BD8-9537B3F45C91" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B057E2C8-5C53-47B4-F947-0678F205C7E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

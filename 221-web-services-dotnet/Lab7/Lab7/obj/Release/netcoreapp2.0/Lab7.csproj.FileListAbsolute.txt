@@ -1,0 +1,11 @@
+C:\Users\Nathan\OneDrive\Documents\Second-Year\SecondSemester\ICS221\221-Labs\Lab7\Lab7\bin\Release\netcoreapp2.0\Lab7.deps.json
+C:\Users\Nathan\OneDrive\Documents\Second-Year\SecondSemester\ICS221\221-Labs\Lab7\Lab7\bin\Release\netcoreapp2.0\Lab7.runtimeconfig.json
+C:\Users\Nathan\OneDrive\Documents\Second-Year\SecondSemester\ICS221\221-Labs\Lab7\Lab7\bin\Release\netcoreapp2.0\Lab7.runtimeconfig.dev.json
+C:\Users\Nathan\OneDrive\Documents\Second-Year\SecondSemester\ICS221\221-Labs\Lab7\Lab7\bin\Release\netcoreapp2.0\Lab7.dll
+C:\Users\Nathan\OneDrive\Documents\Second-Year\SecondSemester\ICS221\221-Labs\Lab7\Lab7\bin\Release\netcoreapp2.0\Lab7.pdb
+C:\Users\Nathan\OneDrive\Documents\Second-Year\SecondSemester\ICS221\221-Labs\Lab7\Lab7\obj\Release\netcoreapp2.0\Lab7.csprojResolveAssemblyReference.cache
+C:\Users\Nathan\OneDrive\Documents\Second-Year\SecondSemester\ICS221\221-Labs\Lab7\Lab7\obj\Release\netcoreapp2.0\Lab7.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\OneDrive\Documents\Second-Year\SecondSemester\ICS221\221-Labs\Lab7\Lab7\obj\Release\netcoreapp2.0\Lab7.AssemblyInfoInputs.cache
+C:\Users\Nathan\OneDrive\Documents\Second-Year\SecondSemester\ICS221\221-Labs\Lab7\Lab7\obj\Release\netcoreapp2.0\Lab7.AssemblyInfo.cs
+C:\Users\Nathan\OneDrive\Documents\Second-Year\SecondSemester\ICS221\221-Labs\Lab7\Lab7\obj\Release\netcoreapp2.0\Lab7.dll
+C:\Users\Nathan\OneDrive\Documents\Second-Year\SecondSemester\ICS221\221-Labs\Lab7\Lab7\obj\Release\netcoreapp2.0\Lab7.pdb

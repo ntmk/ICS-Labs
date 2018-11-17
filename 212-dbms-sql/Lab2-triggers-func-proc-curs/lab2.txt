@@ -1,0 +1,53 @@
+drop table lab02_relational;
+
+(1)What does this say about Oracle’s strict adherence to relational theory? (1 Mark)
+
+CREATE TABLE LAB02_RELATIONAL
+(COL1 VARCHAR2(20));
+INSERT INTO LAB02_RELATIONAL VALUES ('Oracle rules');
+INSERT INTO LAB02_RELATIONAL VALUES ('Oracle rules');
+INSERT INTO LAB02_RELATIONAL VALUES ('Oracle rules');
+SELECT * FROM LAB02_RELATIONAL;
+COMMIT;
+
+select * from lab02_relational;
+ 
+(2)Can you find a way to change the middle row to 'Oracle does not rule'? (Hint: Use the ROWID). Make the
+change and do a SELECT * again to show the results. (2 Marks)
+
+select ROWID from lab02_relational;
+
+- update based on rowid (will change during demo)
+update lab02_relational set col1 = 'Oracle does not rule' where ROWID = 'AACCdXAAEAAAQJOAAB';
+
+select * from lab02_relational;
+
+(3)Write a script to eliminate all duplicate rows, so that you only have the two unique rows left in the table.
+(Hint: You will want to use a self-join on the table using the ROWID and the exists clause). (3 Marks)
+
+INSERT INTO LAB02_RELATIONAL VALUES ('Oracle rules');
+INSERT INTO LAB02_RELATIONAL VALUES ('Oracle rules');
+INSERT INTO LAB02_RELATIONAL VALUES ('Oracle does not rule');
+COMMIT;
+
+SELECT * FROM LAB02_RELATIONAL;
+
+- eliminate duplicate rows
+delete from LAB02_RELATIONAL a where a.rowid > any (select b.rowid from LAB02_RELATIONAL b where a.col1 = b.col1);
+
+- create trigger for student table when new student entered
+**NOT CORRECT**
+create trigger new_student_entered
+after insert on student
+begin
+insert into new_students (student_id, first_name, last_name)
+values (:student_id, :first_name, :last_name);
+end;
+
+- create view of new student records
+create view [new_student_entered] as
+select * from NEW_STUDENTS;
+
+- look at the view
+select * from [new_student_entered];
+

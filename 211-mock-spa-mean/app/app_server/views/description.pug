@@ -1,0 +1,41 @@
+extends layout
+block content
+    .container-fluid.py-3
+        if errorMsg
+            .alert.alert-danger= errorMsg
+        .row.justify-content-sm-center
+            h1= art.name
+        
+        body
+
+        .table.py-3
+            .row.justify-content-sm-center
+                .tr
+                    .td
+                        img(src=art.image width='300' height='300')
+                        p.py-3=art.description
+                        
+        .row.justify-content-sm-center.py-1
+            button.btn.btn-info(onclick="$('#square1').toggle(), $('#square2').toggle(), $('#square3').toggle(), $('#square4').toggle()") Square Canvas
+        .row.justify-content-sm-center.py-1
+            button.btn.btn-info.py-1(id='square1' style="display: none" onclick="$('#squareprice1').toggle()") 8x8
+            button.btn.btn-info.py-1(id='square2' style="display: none" onclick="$('#squareprice2').toggle()") 10x10
+            button.btn.btn-info.py-1(id='square3' style="display: none" onclick="$('#squareprice3').toggle()") 12x12
+            button.btn.btn-info.py-1(id='square4' style="display: none" onclick="$('#squareprice4').toggle()") 20x20
+        .row.justify-content-sm-center.py-1
+            button.btn.btn-info.py-1(id='squareprice1' style="display: none") 20-60
+            button.btn.btn-info.py-1(id='squareprice2' style="display: none") 60-100
+            button.btn.btn-info.py-1(id='squareprice3' style="display: none") 100-140
+            button.btn.btn-info.py-1(id='squareprice4' style="display: none") 140-180
+        .row.justify-content-sm-center.py-1
+            button.btn.btn-info(onclick="$('#rectangle1').toggle(), $('#rectangle2').toggle(), $('#rectangle3').toggle(), $('#rectangle4').toggle()") Rectangle Canvas
+        .row.justify-content-sm-center.py-1
+            button.btn.btn-info(id='rectangle1' style="display: none" onclick="$('#rectangleprice1').toggle()") 8x12
+            button.btn.btn-info(id='rectangle2' style="display: none" onclick="$('#rectangleprice2').toggle()") 10x16
+            button.btn.btn-info(id='rectangle3' style="display: none" onclick="$('#rectangleprice3').toggle()") 12x20
+            button.btn.btn-info(id='rectangle4' style="display: none" onclick="$('#rectangleprice4').toggle()") 20x24
+        .row.justify-content-sm-center.py-1
+            button.btn.btn-info.py-1(id='rectangleprice1' style="display: none") 20-60
+            button.btn.btn-info.py-1(id='rectangleprice2' style="display: none") 60-100
+            button.btn.btn-info.py-1(id='rectangleprice3' style="display: none") 100-140
+            button.btn.btn-info.py-1(id='rectangleprice4' style="display: none") 140-180

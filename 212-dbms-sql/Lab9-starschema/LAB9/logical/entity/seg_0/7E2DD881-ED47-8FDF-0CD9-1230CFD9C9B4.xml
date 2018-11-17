@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E2DD881-ED47-8FDF-0CD9-1230CFD9C9B4" name="SALE REP">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 18:13:01 UTC</createdTime>
+<comment>Sales person information including managers information&lt;br/&gt;</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMP ID " id="12CFEFF8-25CF-B073-1E03-AC942F3638EA">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 18:13:37 UTC</createdTime>
+<comment>Employee ID</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMP FIRST NM" id="8EE980CF-0539-52E7-8AD3-D8239E28BF99">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 18:13:55 UTC</createdTime>
+<comment>Employee first name</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMP LAST NM" id="9DA0AA64-B14D-8C9E-60EE-0CC63B497AAF">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 18:14:16 UTC</createdTime>
+<comment>Employee last name</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDR" id="7EF0D803-9D18-CB37-38B9-5A5D9158C23F">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 18:14:32 UTC</createdTime>
+<comment>Employee address</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARY" id="6A5CDD5B-A4A3-431C-DC0C-9540BF11174F">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 18:14:50 UTC</createdTime>
+<comment>employee salary</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEPT" id="2D6D1704-C233-D664-1255-5DB61E431184">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 18:15:04 UTC</createdTime>
+<comment>employee department</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MGT ID" id="B64C8FF4-962E-BF25-40EF-FEC5420D674E">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 18:44:03 UTC</createdTime>
+<comment>manager ID</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MGT NM" id="2BD158DA-4ACF-4B99-8F44-F89CE7C708C7">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 18:44:44 UTC</createdTime>
+<comment>manager name</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33172380-B702-026A-D5EB-292F5D7A9445" name="EMPLOYEES PK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 18:13:49 UTC</createdTime>
+<ownerDesignName>LAB9</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12CFEFF8-25CF-B073-1E03-AC942F3638EA</attributeRef>
+<attributeRef>B64C8FF4-962E-BF25-40EF-FEC5420D674E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

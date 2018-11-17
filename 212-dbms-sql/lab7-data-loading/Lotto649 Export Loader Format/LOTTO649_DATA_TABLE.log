@@ -1,0 +1,66 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Wed Nov 1 14:05:57 2017
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   LOTTO649_DATA_TABLE.ctl
+Data File:      C:\Users\aceis\OneDrive\Documents\ICS212\lab7\Lotto649 Export Loader Format\LOTTO649_DATA_TABLE.ldr
+  File processing option string: "str '\r\n'"
+  Bad File:     LOTTO649_DATA_TABLE.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 345
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:   1:1 = 0X23(character '#'), in next physical record
+Path used:      Conventional
+
+Table "NMACKENZI"."LOTTO649", loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+"DRAWNBR"                           FIRST     *   |  O(") CHARACTER            
+                                                      O(")
+"DRAWDATE"                           NEXT     *   |  O(") DATE YYYY-MM-DD HH24:MI:SS
+                                                      O(")
+"NBR01"                              NEXT     *   |  O(") CHARACTER            
+                                                      O(")
+"NBR02"                              NEXT     *   |  O(") CHARACTER            
+                                                      O(")
+"NBR03"                              NEXT     *   |  O(") CHARACTER            
+                                                      O(")
+"NBR04"                              NEXT     *   |  O(") CHARACTER            
+                                                      O(")
+"NBR05"                              NEXT     *   |  O(") CHARACTER            
+                                                      O(")
+"NBR06"                              NEXT     *   |  O(") CHARACTER            
+                                                      O(")
+"NBRBONUS"                           NEXT     *   |  O(") CHARACTER            
+                                                      O(")
+
+
+Table "NMACKENZI"."LOTTO649":
+  3452 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 148608 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          3452
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Nov 01 14:05:57 2017
+Run ended on Wed Nov 01 14:05:58 2017
+
+Elapsed time was:     00:00:01.03
+CPU time was:         00:00:00.08

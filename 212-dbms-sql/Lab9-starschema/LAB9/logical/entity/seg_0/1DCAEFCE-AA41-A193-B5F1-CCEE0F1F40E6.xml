@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1DCAEFCE-AA41-A193-B5F1-CCEE0F1F40E6" name="DEMOGRAPHIC">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:43:15 UTC</createdTime>
+<comment>Alternate information about customers </comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CR LIMIT" id="DF2AA67B-11E0-EB20-4E2B-688506E578D8">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:43:52 UTC</createdTime>
+<comment>customer credit limit</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BIRTH DT" id="32F3D0B2-740F-39B2-8E16-D4DB9E26C9E4">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:44:26 UTC</createdTime>
+<comment>customer birth date</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENDER" id="690EEEF1-20DE-0F24-D2D3-42EBD776D2F8">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:44:55 UTC</createdTime>
+<comment>customer gender </comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARITAL STS" id="CF26E357-E25D-4060-5C50-1A632AAF1CCB">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:45:16 UTC</createdTime>
+<comment>customer marital status</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC253F58-CD96-71C3-39C0-989A58408B9C" name="ORDER PK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:44:01 UTC</createdTime>
+<ownerDesignName>LAB9</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0F9D256E-D2EC-BC31-19EB-CF24DBF220BB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF2AA67B-11E0-EB20-4E2B-688506E578D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

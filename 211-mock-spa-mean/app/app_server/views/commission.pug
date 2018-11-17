@@ -1,0 +1,51 @@
+extends layout
+block content
+  .container-fluid
+    h1= title
+
+    body
+      .container-fluid
+        .row
+          .col-12.col-sm-8
+            p.text-black= commissionText
+      .container
+        form(name='contact', action='/thanks', method='post')
+          .form-group.row
+            label.col-form-label.col-sm-2(for='email') Email:
+            .col-sm-6
+              input#email.form-control(type='email', name='email', required, placeholder='Enter a valid email address')
+          .form-group.row
+            label.col-form-label.col-sm-2 Name:
+            .col-sm-6
+              input#name.form-control(type='text', name='name', required, placeholder='Enter your name')
+          .form-group.row
+            label.col-form-label.col-sm-2(for='size') Square canavs size:
+            .col-sm-6
+              select.form-control(placeholder='Select size')
+                option= '- Select size -'
+                option= '8x8'
+                option= '10x10'
+                option= '12x12'
+                option= '20x20'
+          .form-group.row
+            label.col-form-label.col-sm-2(for='size') Rectangle canvas size:
+            .col-sm-6
+              select.form-control()
+                option= '- Select size -'
+                option= '4x6'
+                option= '5x7'
+                option= '8x10'
+                option= '9x12'
+                option= '12x16'
+          .form-group.row
+            label.col-form-label.col-sm-2 Budget:
+            .col-sm-6
+              input#budget.form-control(type='number', name='budget', required, placeholder='Desired budget')
+          .form-group.row
+            label.col-form-label.col-sm-2(for='msg') Commission details:
+            .col-sm-8
+              textarea#msg.form-control(rows='5', name='msg', required,  placeholder='Include details of your idea here')
+          .form-group.row
+            label.col-form-label.col-sm-2
+            .col-sm-4
+              button.btn.btn-primary(type='submit') Send Message

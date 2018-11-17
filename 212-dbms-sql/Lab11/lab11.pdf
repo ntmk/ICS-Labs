@@ -1,0 +1,157 @@
+
+PROD_CATEGORY        FISCAL_YEA PROMO_CATEGORY                 SALES          
+-------------------- ---------- ------------------------------ ---------------
+Electronics                2000 internet                                  $655
+Electronics                2000                                           $655
+Electronics                2001 TV                                    $244,721
+Electronics                2001                                       $244,721
+Electronics                                                           $245,376
+Hardware                   2000 internet                                $4,600
+Hardware                   2000                                         $4,600
+Hardware                   2001 TV                                    $171,868
+Hardware                   2001 internet                              $137,720
+Hardware                   2001                                       $309,588
+Hardware                                                              $314,188
+
+PROD_CATEGORY        FISCAL_YEA PROMO_CATEGORY                 SALES          
+-------------------- ---------- ------------------------------ ---------------
+Peripherals and Acce       2000 internet                               $79,351
+ssories                                                                       
+
+Peripherals and Acce       2000                                        $79,351
+ssories                                                                       
+
+Peripherals and Acce       2001 TV                                    $339,017
+ssories                                                                       
+
+Peripherals and Acce       2001                                       $339,017
+ssories                                                                       
+
+
+PROD_CATEGORY        FISCAL_YEA PROMO_CATEGORY                 SALES          
+-------------------- ---------- ------------------------------ ---------------
+Peripherals and Acce                                                  $418,368
+ssories                                                                       
+
+Photo                      2001 TV                                    $297,773
+Photo                      2001                                       $297,773
+Photo                                                                 $297,773
+Software/Other             2000 internet                                $4,522
+Software/Other             2000                                         $4,522
+Software/Other             2001 TV                                    $140,871
+Software/Other             2001                                       $140,871
+
+PROD_CATEGORY        FISCAL_YEA PROMO_CATEGORY                 SALES          
+-------------------- ---------- ------------------------------ ---------------
+Software/Other                                                        $145,394
+                                                                    $1,421,099
+
+25 rows selected. 
+
+
+PROD_CATEGORY        FISCAL_YEA PROMO_CATEGORY                 SALES          
+-------------------- ---------- ------------------------------ ---------------
+Electronics                2000 internet                                  $655
+Electronics                2000                                           $655
+Electronics                2001 TV                                    $244,721
+Electronics                2001                                       $244,721
+Electronics                     TV                                    $244,721
+Electronics                     internet                                  $655
+Electronics                                                           $245,376
+Hardware                   2000 internet                                $4,600
+Hardware                   2000                                         $4,600
+Hardware                   2001 TV                                    $171,868
+Hardware                   2001 internet                              $137,720
+
+PROD_CATEGORY        FISCAL_YEA PROMO_CATEGORY                 SALES          
+-------------------- ---------- ------------------------------ ---------------
+Hardware                   2001                                       $309,588
+Hardware                        TV                                    $171,868
+Hardware                        internet                              $142,320
+Hardware                                                              $314,188
+                           2000 internet                                $5,255
+                           2000                                         $5,255
+                           2001 TV                                    $416,589
+                           2001 internet                              $137,720
+                           2001                                       $554,309
+                                TV                                    $416,589
+                                internet                              $142,975
+
+PROD_CATEGORY        FISCAL_YEA PROMO_CATEGORY                 SALES          
+-------------------- ---------- ------------------------------ ---------------
+                                                                      $559,564
+
+23 rows selected. 
+
+
+PROD_CATEGORY        FISCAL_YEA PROMO_CATEGORY                 SALES          
+-------------------- ---------- ------------------------------ ---------------
+Electronics                2001                                       $244,721
+Electronics                2000                                           $655
+Hardware                   2000                                         $4,600
+Hardware                   2001                                       $309,588
+                           2001 internet                              $137,720
+                           2000 internet                                $5,255
+                                                                      $559,564
+                           2001 TV                                    $416,589
+
+8 rows selected. 
+
+
+PROD_CATEGORY        PROD_NAME                                          SALES                 RANK
+-------------------- -------------------------------------------------- --------------- ----------
+Electronics          Home Theatre Package with DVD-Audio/Video Play          $1,662,156          1
+Electronics          Y Box                                                   $1,204,729          2
+Electronics          8.3 Minitower Speaker                                   $1,099,686          3
+Hardware             Envoy Ambassador                                        $3,453,657          1
+Hardware             Envoy 256MB - 40GB                                      $2,230,713          2
+Peripherals and Acce 17" LCD w/built-in HDTV Tuner                           $1,872,204          1
+ssories                                                                                           
+
+Peripherals and Acce 18" Flat Panel Graphics Monitor                         $1,312,771          2
+ssories                                                                                           
+
+
+PROD_CATEGORY        PROD_NAME                                          SALES                 RANK
+-------------------- -------------------------------------------------- --------------- ----------
+Peripherals and Acce Model NM500X High Yield Toner Cartridge                   $649,033          3
+ssories                                                                                           
+
+Photo                Mini DV Camcorder with 3.5" Swivel LCD                  $2,819,075          1
+Photo                5MP Telephoto Digital Camera                            $2,205,837          2
+Photo                256MB Memory Card                                         $319,255          3
+Software/Other       Unix/Windows 1-user pack                                $1,013,749          1
+Software/Other       DVD-R Discs, 4.7GB, Pack of 5                             $319,611          2
+Software/Other       DVD-R Disc with Jewel Case, 4.7 GB                        $260,401          3
+
+14 rows selected. 
+
+
+PROD_CATEGORY        PROD_NAME                                          SALES                 RANK
+-------------------- -------------------------------------------------- --------------- ----------
+Electronics          Fly Fishing                                                $16,719          1
+Electronics          Comic Book Heroes                                          $36,326          2
+Electronics          Finding Fido                                               $39,059          3
+Hardware             Envoy 256MB - 40GB                                      $2,230,713          1
+Hardware             Envoy Ambassador                                        $3,453,657          2
+Peripherals and Acce Envoy External Keyboard                                    $40,483          1
+ssories                                                                                           
+
+Peripherals and Acce Internal 8X CD-ROM                                         $47,151          2
+ssories                                                                                           
+
+
+PROD_CATEGORY        PROD_NAME                                          SALES                 RANK
+-------------------- -------------------------------------------------- --------------- ----------
+Peripherals and Acce Standard Mouse                                             $71,432          3
+ssories                                                                                           
+
+Photo                Model C93822D Wireless Phone Battery                       $74,852          1
+Photo                Model K3822L Cordless Phone Battery                       $104,074          2
+Photo                Model C9827B Cordless Phone Battery                       $120,948          3
+Software/Other       1.44MB External 3.5" Diskette                              $20,534          1
+Software/Other       CD-RW, High Speed, Pack of 10                              $27,708          2
+Software/Other       3 1/2" Bulk diskettes, Box of 50                           $36,008          3
+
+14 rows selected. 
+

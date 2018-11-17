@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign>
+   <object objectType="ResponsibleParty" objectID="25862BAB-EE06-9821-165B-A5B6E8E68866" name="JAZZ" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.businessinfo.BIResponsibleParty" propertyParentId="55818762-FF13-18CE-4256-D75F61B6B213" propertySourceId="" propertyTargetId=""/>
+   <object objectType="ResponsibleParty" objectID="AEB0FD4C-7136-141E-0372-7588BC298DBF" name="NATHAN" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.businessinfo.BIResponsibleParty" propertyParentId="55818762-FF13-18CE-4256-D75F61B6B213" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign>

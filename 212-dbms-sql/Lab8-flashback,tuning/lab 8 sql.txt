@@ -1,0 +1,21 @@
+select * from LOTTO649
+where drawnbr = 1;
+update LOTTO649 set nbrbonus = 1
+where drawnbr = 1;
+select * from LOTTO649
+where drawnbr = 1;
+update LOTTO649 set nbrbonus = 
+(select nbrbonus from LOTTO649
+as of timestamp sysdate - 11/8
+where drawnbr = 1)
+where drawnbr = 1;
+select * from LOTTO649
+where drawnbr = 1;
+
+flashback part 1 - 2
+DROP TABLE temp;
+CREATE TABLE temp AS (SELECT * FROM dual);
+DROP TABLE temp;
+FLASHBACK TABLE temp
+TO BEFORE DROP;
+SELECT * FROM temp;

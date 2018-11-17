@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="train_images">
+        <item>@drawable/train0</item>
+        <item>@drawable/train1</item>
+        <item>@drawable/train2</item>
+        <item>@drawable/train3</item>
+        <item>@drawable/train4</item>
+        <item>@drawable/train5</item>
+        <item>@drawable/train6</item>
+        <item>@drawable/train7</item>
+        <item>@drawable/train8</item>
+        <item>@drawable/train9</item>
+    </array>
+    <array name="again_images">
+        <item>@drawable/sad_face</item>
+        <item>@drawable/happy_face</item>
+        <item>@drawable/start_face</item>
+    </array>
+</resources>

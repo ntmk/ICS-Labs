@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E4A099EC-CF2B-8C2B-70F3-30BA2DBD0C8F" mainViewID="BBD9E8BE-AC57-B1F5-BB0C-31CCF0635A98">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 17:27:38 UTC</createdTime>
+<comment>SALES ANALYSIS FACT TABLE&lt;br/&gt;&lt;br/&gt;CREATED:&lt;br/&gt;11-15-2017&lt;br/&gt;&lt;br/&gt;LAST MODIFIED:&lt;br/&gt;11-15-2017&lt;br/&gt;&lt;br/&gt;AUTHORS:&lt;br/&gt;JAZZ &lt;br/&gt;NATHAN&lt;br/&gt;</comment>
+<ownerDesignName>LAB9</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<responsibleParties>
+<Party id="25862BAB-EE06-9821-165B-A5B6E8E68866"/>
+<Party id="AEB0FD4C-7136-141E-0372-7588BC298DBF"/>
+</responsibleParties>
+</LogicalDesign>

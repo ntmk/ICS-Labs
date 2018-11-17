@@ -1,0 +1,21 @@
+extends layout
+block content
+    .container-fluid.py-3
+        h1= title
+        body
+        .container-fluid.py-3
+            .table
+                .row.justify-content-sm-center
+                    if errorMsg
+                        .alert.alert-danger= errorMsg
+                    each item in art
+                        .tr
+                            a.img-link(href='/gallery/description/' + item._id)
+                                .th
+                                    h3=item.name
+                                .td
+                                    img(src=item.image width='300' height='300')
+                                    
+                                    p=item.description
+    
+          
